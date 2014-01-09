@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Responsive website</title>
+    <link rel="stylesheet" href="css/base.css">
+    <meta name="description" content="A website that responds">
+    <meta name="author" content="Joshua Ellinger">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="picturefill.js"></script>
+</head>
+<body>
+<header>
+    <nav id="skipTo">
+        <ul>
+            <li><a href="#main-content">Skip to main content</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>My responsive web page</h1>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+    </ul>
+</nav>
+<div id="banner">
+    <span data-picture data-alt="A baby deer">
+        <span data-src="images/image1.jpg"></span>
+        <span data-src="images/image1-highres.jpg" data-media="(min-width:600px)"></span>
+        <noscript>
+            <img src="images/image1.jpg" alt="A baby deer" />
+        </noscript>
+    </span>
+</div>
+<section id="main">
+    <h2>Main section</h2>
+    <ul>
+        <li>
+        <span data-picture data-alt="A baby deer">
+            <span data-src="images/image1.jpg"></span>
+            <span data-src="images/image1-highres.jpg" data-media="(min-width:600px)"></span>
+            <noscript>
+                <img src="images/image1.jpg" alt="A baby deer" />
+            </noscript>
+        </span>
+        </li>
+        <li>
+        <span data-picture data-alt="A gorilla">
+            <span data-src="images/image2.jpg"></span>
+            <span data-src="images/image2-highres.jpg" data-media="(min-width:600px)"></span>
+            <noscript>
+                <img src="images/image2.jpg" alt="A gorilla" />
+            </noscript>
+        </span>
+        </li>
+        <li>
+        <span data-picture data-alt="A dog">
+            <span data-src="images/image3.jpg"></span>
+            <span data-src="images/image3-highres.jpg" data-media="(min-width:600px)"></span>
+            <noscript>
+                <img src="images/image3.jpg" alt="A dog" />
+            </noscript>
+        </span>
+        </li>
+    </ul>
+</section>
+<aside>
+    <h2>Sub-section</h2>
+    <p>It's about the future, isn't it? Let's go. Yeah, I guessed you're a sailor, aren't you, that's why you wear that life preserver. Where's Einstein, is he with you? I think it's terrible. Girls chasing boys. When I was your age I never chased a boy, or called a boy, or sat in a parked car with a boy.</p>
+</aside>
+
+</body>
+</html>

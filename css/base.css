@@ -16,6 +16,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* Header */
+header h1 {
+    margin-top: .5em;
+    display: block;
+    float: left;
+    width: 20em
+}
 header nav {
     float: right;
     margin-top: .5em;
@@ -32,3 +38,29 @@ header nav li {
 }
 
 /* Banner */
+#banner {
+    float: left;
+    margin-bottom: .5em;
+    width: 100%
+}
+
+#banner img {
+    width: 100%;
+}
+
+/* Main */
+#main {
+    float: left;
+    width: 70%;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+#main img {
+    width: 100%;
+}
+
+/* Aside */
+aside {
+    float: left;
+    width: 29%
+}
